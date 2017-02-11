@@ -76,6 +76,13 @@ plugins:
   #   options:
   #     host: localhost
   #     port: 28015
+  storage:
+    name: mongodb
+    options:
+      connectionString: ${MONGODB_URI}
+      database: someDb
+      defaultTable: someTable
+      splitChar: "/"
 
 # Storage options
 # a RegExp that matches recordNames. If it matches, the record's data won't be stored in the db
