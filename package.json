@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "deepstream.io": "^2.1.2",
+    "deepstream.io-cache-redis": "^1.0.2",
     "deepstream.io-storage-mongodb": "^1.0.2"
   },
   "engines": {
