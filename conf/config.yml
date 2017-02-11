@@ -10,7 +10,7 @@ logLevel: INFO
 
 # Connectivity
 # port for the websocket server
-port: 80
+port: ${PORT}
 # host for the websocket server
 host: 0.0.0.0
 # url path websocket connections connect to
