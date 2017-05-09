@@ -76,16 +76,16 @@ plugins:
   #   options:
   #     host: localhost
   #     port: 28015
-  storage:
-    name: mongodb
-    options:
-      connectionString: ${MONGODB_URI}
-      database: someDb
-      defaultTable: someTable
-      splitChar: "/"
-  cache:
-    name: redis
-    options: ${REDISCLOUD_URL}?dropBufferSupport=true
+#  storage:
+#    name: mongodb
+#    options:
+#      connectionString: ${MONGODB_URI}
+#      database: someDb
+#      defaultTable: someTable
+#      splitChar: "/"
+#  cache:
+#    name: redis
+#    options: ${REDISCLOUD_URL}?dropBufferSupport=true
 
 # Storage options
 # a RegExp that matches recordNames. If it matches, the record's data won't be stored in the db
